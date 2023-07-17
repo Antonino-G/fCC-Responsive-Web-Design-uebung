@@ -1,0 +1,74 @@
+#main {
+  max-width: 0 auto;
+  margin: 30px auto;
+  background-color: #F1F1F8;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  text-align: center;
+}
+
+#title > h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+#title > p {
+  text-align: center;
+  font-size: 30px;
+  
+  padding: 10px;
+}
+
+#img-div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+
+#Brustring {
+  background-color: #f22b1a;
+  padding: 50px;
+}
+
+#quelle {
+  font-size: 15px;
+}
+#tribute-info {
+  line-height: 30px;
+  max width: ;
+  margin: ; 
+}
+
+h2{
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+h3 {
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+h4 {
+  padding-top: 50px;
+}
+p {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px; 
+  padding-top: 50px;
+}
+
+
+#tribute-info ul {
+  margin: 0;
+  padding: 0;
+}

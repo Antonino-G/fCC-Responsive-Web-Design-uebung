@@ -1,0 +1,115 @@
+body::before {
+  content: "";
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    115deg,
+     rgba(58, 58, 158, 0.9),
+     rgba(136, 136, 206, 0.9)
+  ),
+     url(https://img.freepik.com/fotos-kostenlos/softwareprogrammierer-zeigt-mit-bleistift-auf-den-quellcode-auf-dem-computerbildschirm-und-erklaert-dem-neben-dem-schreibtisch-stehenden-kollegen-den-algorithmus-programmierer-diskutieren-mit-dem-team-ueber-online-cloud-computing_482257-33535.jpg?w=1800&t=st=1679052938~exp=1679053538~hmac=7b32acf35c66be5503e1d3cf5b55f7f4e484372d9f25fa9b1f99135535f48b0b)
+  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;  
+  background-color:#1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+form {
+  margin: 0 auto;
+  background-color: rgba(20,20,60, 0.9);
+  min-width: 300px;
+  max-width: 600px;
+  width: 60vw; 
+}
+
+fieldset {
+  border:none;
+  padding: 0rem 2rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 0px;
+  margin-top: 3px;
+  margin-bottom: px;
+  line-height: 30px;
+  padding-left: 5px;
+}
+
+#name-label {
+  padding-top: 2rem;
+}
+
+.inline {
+  width: unset;
+  margin-right: 0.5rem;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-size: 40 ;
+  font-weight: lighter;
+}
+
+p {
+  Margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-style: italic;
+}
+
+input, textarea {
+  background-color: #f3f3f3;
+  border: 1px solid #0a0a23;
+}
+
+select {
+  appearance: none;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px
+}
+
+.optional, .check {
+  font-size: 11px;
+}
+
+input[type="submit"]{
+  display: block;
+  border-radius: 4px;
+  background-color: lightgreen;
+}
+
+label[type="radio"] {
+  padding-top: 0;
+}

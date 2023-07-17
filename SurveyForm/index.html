@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <title>Umfrage Formular</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Umfrage Formular</h1>
+    <p id="description">Vielen Dank, dass Sie sich die Zeit nehmen, uns bei der Verbesserung der Plattform zu helfen</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Geben Sie ihren Namen ein" required></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Geben Sie hier ihre E-Mail-Adresse ein" required></label>
+        <label id="number-label" for="number">Alter <span class="optional">(optional)</span><input id="number" type="number" min="12" max="120" placeholder="Geben Sie hier ihr Alter ein"></label>
+      </fieldset>
+      <fieldset>
+        <label>Gib deine aktuelle Tätigkeit an
+          <select id="dropdown"  required>
+            <option>Tätigkeit wählen</option>
+            <option>Schüler</option>
+            <option>Student</option>
+            <option>Angestellter</option>
+            <option>Andere</option>
+            <option>Keine Angabe</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Würden Sie freeCodeCamp einem Freund weiterempfehlen
+          <label for="sure"><input type="radio" id="sure" name="recommend" value="sure" class="inline"> Sicher</label>
+          <label for="maybe"><input type="radio" id="maybe"  name="recommend" value="maybe" class="inline"> Wahrscheinlich</label>
+          <label for="unlikely"><input type="radio" id="unlikely" name="recommend" value="unlikely" class="inline"> Unwahrscheinlich</label>
+          <label for="notSure"><input type="radio" id="notSure" name="recommend" value="notSure" class="inline"> Sicher nicht</label>
+        </label> 
+      </fieldset>
+      <fieldset>
+        <label>Was gefällt ihnen an freeCodeCamp am besten?
+          <select id="dropdown2" required>
+            <option>Wähle eine Option</option>
+            <option>Herausforderungen</option>
+            <option>Projekte</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Was sollten wir ihrer Meinung nach verbessern? <span class="check">(Zutreffendes bitte ankreuzen)</span>
+          <label for="checkbox1"><input type="checkbox" name="improve" value="frontend" id="checkbox1" class="inline"> Frontend Projekte</label>
+          <label for="checkbox2"><input type="checkbox" name="improve" value="backend" id="checkbox2" class="inline"> Backend Projekte</label>
+          <label for="checkbox3"><input type="checkbox" name="improve" value="dataVisualization" id="checkbox3" class="inline"> Daten Visualisierung</label>
+          <label for="checkbox4"><input type="checkbox" name="improve" value="challenges" id="checkbox4" class="inline"> Herausforderungen</label>
+          <label for="checkbox5"><input type="checkbox" name="improve" value="openSource" id="checkbox5" class="inline"> Open Source Projekte</label>
+          <label for="checkbox6"><input type="checkbox" name="improve" value="videos" id="checkbox6" class="inline"> Videos</label>
+          <label for="checkbox7"><input type="checkbox" name="improve" value="citymeetups" id="checkbox7" class="inline"> Stadt Treffen</label>
+          <label for="checkbox8"><input type="checkbox" name="improve" value="wiki" id="checkbox8" class="inline"> Wiki</label>
+          <label for="checkbox9"><input type="checkbox" name="improve" value="forum"  id="checkbox9" class="inline"> Forum</label>
+          <label for="checkbox10"><input type="checkbox" name="improve" value="morecourses" id="checkbox10" class="inline"> Zusätzliche Kurse</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Irgendwelche Kommentare oder Vorschläge?
+        <textarea id="textarea"  rows="5" cols="30" placeholder="Geben Sie hier ihren Kommentar ein..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="submit"><input type="submit" name="submit" id="submit"></label> 
+      </fieldset>
+    </form>
+  </body>
+</html>
